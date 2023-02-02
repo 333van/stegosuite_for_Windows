@@ -19,7 +19,7 @@ To build the jar-file, Apache Maven and Java 8 need to be installed.
 
 **build** 
 
-    $ mvn package
+    $ mvn package -DskipTests
 
 and Maven will create a jar-file for you depending on your operating system.
 
